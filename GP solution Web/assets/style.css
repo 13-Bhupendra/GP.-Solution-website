@@ -1,0 +1,186 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:montserrat;
+}
+body 
+{
+    height: 80vh;
+    width: 100%;
+    background-image:url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+    
+}
+.home-content 
+{
+    height: 115vh;
+     
+}
+.main-navbar
+{
+    position: fixed;
+    top: 0%;
+    z-index:100;
+    height: auto;
+    width: 100%;
+    background: rgba( 0, 0, 0, 0.80 );
+}
+.nav-link
+{
+    color: white;
+    text-align: center;
+}
+.nav-link:hover
+{
+    color: rgb(255, 217, 0);
+}
+.get-st .btn
+{
+    border: 2px solid rgb(255, 217, 0);
+    width: 150px;
+    color: white;
+    transition: 0.6s;
+}
+.get-st .btn:hover
+{
+    background-color: rgb(255, 217, 0);
+    color: black;
+    border: 2px solid black;
+}
+#home h1 
+{
+    color: white;
+    font-size: 60px; 
+    text-align: center;
+}
+#home h4
+{
+    color: lightgray;
+    font-size: 25px;
+     text-align: center; 
+     
+}
+#home-menu 
+{
+     
+    height: 175px;
+    border:1px solid gainsboro;
+    transition: 0.4s;
+
+}
+#home-menu:hover
+{
+    color: rgb(255, 217, 0);
+    border:1px solid rgb(255, 217, 0);
+}
+.home-text h4
+{
+    color: white;
+    font-weight:bold;
+    text-align: center;
+    transition: 0.4s;
+}
+#home-menu:hover .home-text h4
+{
+    color:rgb(255, 217, 0) ;
+}
+.about-img img 
+{
+    height: 450px;
+    width: 650px;
+}
+.logo 
+{
+    filter: grayscale(90%);
+    transition: 0.5s;
+}
+.logo:hover
+{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+.logo-content 
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color:rgb(255, 217, 0);
+    margin: auto;
+    border: 2px solid black;
+}
+.service-container
+{
+    background-color: whitesmoke;
+    width:32%;
+    border: 1px solid lightgray;
+    margin: 7px;
+    z-index:0;
+
+    transition: 0.6s;
+}
+.service-container:hover
+{
+    background-color: white;
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgb(72, 72, 72);
+}
+.call-to-action
+{
+    margin-top: 70px;
+    height: auto;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.tap-list
+{
+    
+    transition: 0.6s;
+}
+.tap-list:hover
+{
+    color: black;
+}
+.stats-img img
+{
+    height: 550px;
+    width: 450px;
+}
+.testimonials
+{
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/testimonials-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.carousel-item img 
+{
+    height: 100px;
+    width: 100px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    margin: auto;   
+}
+input,textarea
+{
+    height: 40px;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+::placeholder
+{
+    color: lightgray;
+}
+.dropdown-item:hover 
+{
+    background-color: rgb(255, 217, 0) ;
+}
